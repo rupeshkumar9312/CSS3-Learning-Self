@@ -1,0 +1,48 @@
+.container-main{
+    height: 600px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;   
+    display: flex;
+    flex-direction: column;
+}
+
+.container-traffic-light{
+    height: 400px;
+    background-color: grey;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stick{
+    height: 200px;
+    background-color: grey;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-top: 20px;   
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

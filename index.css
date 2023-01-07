@@ -1,0 +1,26 @@
+#parent{
+	height: 200px;
+	width: 200px;
+	background-color: brown;
+    margin: 0px;
+	border: 1px solid black;
+
+}
+/* #parent
+{
+	background-color:#2196f3;
+	border: 1px solid white;
+	height:200px;
+	width:200px;
+} */
+
+#child
+{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(9, 5, 5, 0.5);
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid white;
+    color: white;
+}

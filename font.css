@@ -1,0 +1,51 @@
+@font-face {
+    font-family: seasideresort;
+    src: url('seasideresortnf/SeasideResortNF.ttf');
+}
+
+.header{
+    background-color: black;
+    color: blue;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: seasideresort;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.container{
+    width: 50%;
+    border: 1px solid grey;
+    height: 50vh;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.container p{
+    font-family: seasideresort;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.link-container{
+    background-color: rgb(126, 186, 239);
+    height: 50px;
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.link-container a{
+    font-size: large;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+}
